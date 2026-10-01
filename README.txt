@@ -5,6 +5,7 @@ For easier live previewing, the VS Code “Live Server” extension is convenien
 
 FILES
 - index.html ............ page content and photo order
+- contact.html .......... contact form page (messages forwarded to your email by formsubmit.co)
 - styles.css ............ layout, typography, spacing, hero height, gallery styling
 - script.js ............. lightbox behavior and automatic copyright year
 - assets/hero.jpg ....... tall Morocco background/hero image

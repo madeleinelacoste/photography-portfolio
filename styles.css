@@ -345,6 +345,116 @@ footer {
 
 /* TABLET */
 
+/* CONTACT PAGE */
+
+.site-header.solid {
+    position: static;
+    color: var(--ink);
+    text-shadow: none;
+    border-bottom: 1px solid var(--line);
+}
+
+.nav a[aria-current="page"] {
+    border-color: currentColor;
+}
+
+.contact-page {
+    min-height: calc(100svh - 160px);
+    align-items: start;
+}
+
+.contact-intro {
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 30em;
+    margin: 22px 0 40px;
+}
+
+.contact-page .contact-details {
+    font-size: clamp(18px, 2vw, 22px);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.contact-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    color: var(--muted);
+}
+
+.contact-form input,
+.contact-form textarea {
+    font: inherit;
+    font-size: 16px;
+    color: var(--ink);
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    padding: 10px 0;
+    text-transform: none;
+    letter-spacing: normal;
+    border-radius: 0;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    border: 1px solid var(--line);
+    padding: 12px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--ink);
+}
+
+.contact-form button {
+    align-self: flex-start;
+    background: var(--ink);
+    color: var(--bg);
+    border: 0;
+    padding: 15px 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    opacity: .85;
+}
+
+.contact-form .honey {
+    display: none;
+}
+
+.form-sent {
+    font-family: Georgia, serif;
+    font-size: clamp(22px, 3vw, 30px);
+    line-height: 1.4;
+}
+
+.contact-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    border-bottom: 1px solid currentColor;
+    align-self: flex-start;
+    padding-bottom: 4px;
+    margin-top: 8px;
+}
+
+
 @media (max-width: 950px) {
 
     .landscape-row {
