@@ -437,6 +437,18 @@ footer {
     display: none;
 }
 
+.form-error {
+    margin: 0;
+    color: #a3352b;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contact-form button:disabled {
+    opacity: .5;
+    cursor: default;
+}
+
 .form-sent {
     font-family: Georgia, serif;
     font-size: clamp(22px, 3vw, 30px);
