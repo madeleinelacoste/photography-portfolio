@@ -9,7 +9,7 @@ FILES
 - script.js ............. lightbox behavior and automatic copyright year
 - assets/hero.jpg ....... tall Morocco background/hero image
 - assets/madeleine-lacoste-title.png ... handwritten title graphic
-- assets/gallery/ ....... all 68 portfolio photos (the page order is set in index.html, not by file number)
+- assets/gallery/ ....... portfolio photos (only the ones listed in index.html appear on the page; order is set there)
 - single-file-backup.html ... backup of the self-contained version you liked
 
 MOST COMMON EDITS

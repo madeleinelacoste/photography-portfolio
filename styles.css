@@ -168,11 +168,11 @@ button {
 }
 
 .landscape-row {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .portrait-row {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .photo-card {
@@ -348,11 +348,11 @@ footer {
 @media (max-width: 950px) {
 
     .landscape-row {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .portrait-row {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .about {
@@ -403,7 +403,7 @@ footer {
     }
 
     .landscape-row {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .portrait-row {
