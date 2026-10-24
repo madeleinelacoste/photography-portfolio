@@ -8,7 +8,7 @@ FILES
 - contact.html .......... contact form page (messages forwarded to your email by web3forms.com)
 - styles.css ............ layout, typography, spacing, hero height, gallery styling
 - script.js ............. lightbox behavior and automatic copyright year
-- assets/hero.jpg ....... tall Morocco background/hero image
+- assets/hero-swimmers.jpg ... ocean background/hero image (old Morocco hero: assets/hero.jpg)
 - assets/madeleine-lacoste-title.png ... handwritten title graphic
 - assets/gallery/ ....... portfolio photos (only the ones listed in index.html appear on the page; order is set there)
 - single-file-backup.html ... backup of the self-contained version you liked

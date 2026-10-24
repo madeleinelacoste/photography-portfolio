@@ -75,12 +75,12 @@ button {
 /* HERO */
 
 .hero {
-    min-height: max(100svh, 139.42vw);
+    min-height: max(100svh, 66.75vw);
     position: relative;
-    background-image: url("assets/hero.jpg");
-    background-size: 100% auto;
+    background-image: url("assets/hero-swimmers.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
     background-color: #111;
     overflow: hidden;
 }
@@ -101,7 +101,7 @@ button {
     position: absolute;
     z-index: 2;
     left: 50%;
-    top: 50%;
+    top: 36%;
     transform: translate(-50%, -50%);
     width: min(72vw, 920px);
 }
@@ -121,6 +121,7 @@ button {
     font-size: 10px;
     letter-spacing: .18em;
     text-transform: uppercase;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, .6);
 }
 
 
@@ -506,6 +507,7 @@ footer {
 
     .hero {
         min-height: 82svh;
+        background-position: 78% center;
     }
 
     .hero-title {
