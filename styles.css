@@ -173,7 +173,11 @@ button {
 }
 
 .portrait-row {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.landscape-row.pair {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .photo-card {
@@ -475,7 +479,7 @@ footer {
     }
 
     .portrait-row {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .about {
@@ -527,6 +531,10 @@ footer {
     }
 
     .landscape-row {
+        grid-template-columns: 1fr;
+    }
+
+    .landscape-row.pair {
         grid-template-columns: 1fr;
     }
 
